@@ -1,0 +1,58 @@
+ font-size: 30px;
+}
+.rodape > .col-1, .rodape > .col-2, .rodape > .col-3{
+ flex: 1;
+ min-width: 300px;
+
+ height: 350px;
+ text-align: center;
+}
+.rodape > .col-1 > img, .rodape > .col-1 > p, .rodape > .col-2 > p{
+ margin-bottom: 15px;
+}
+
+.rodape > .col-2 > h2{
+ margin-bottom: 40px;
+}
+
+.rodape . .col-2 . h2{
+ margin-top: 15px;
+ margin-bottom: 40px;
+}
+.subRodape{
+ display: flex;
+ flex-direction: row;
+
+ flex-wrap: wrap;
+
+ justify-content: space-around;
+ align-items: center;
+ text-align: center;
+
+ height: 40px;
+
+ background-color: black;
+ color: white;
+ font-size: 18px;
+}
+
+.subRodape > .col-2 > a{
+ text-decoration: none;
+ margin: 5px;
+ color: white;
+}
+.baner{
+	height:100px;
+	width:120px;
+}
+.cor{
+	background-color:black;
+	border-radius:15px;
+}
+.cor1{
+	background-color:black;
+	border-radius:15px;
+}
+#tudo{
+	background-color:solid beige;
+}
